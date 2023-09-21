@@ -19,10 +19,9 @@
         "show_text_below": true
       }
     },
-    "sort_quotes":{
+    "sort_quotes": {
       "type": "sort-quotes",
       "settings": {
-        "title": "Quotes About Snowboard"
       }
     },
     "featured_collection": {
@@ -58,29 +57,21 @@
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0": {
           "type": "heading",
           "settings": {
-            "heading": "Stay hydrated",
+            "heading": "Mountain Majesty",
             "heading_size": "h1"
           }
         },
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Try our wax subscription so you can fly high, but never dry.<\/p>",
+            "text": "<p>In Aspen Peak, Jake Mitchell, a charismatic rider celebrated for daring snowboarding tricks, ignited a trend. His fearless style and fervor transformed the Rockies' skiing hub into a sensation for both locals and tourists, embracing the rise of snowboarding.<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get waxy now",
-            "button_link": "shopify:\/\/products\/selling-plans-ski-wax"
           }
         }
       },
       "block_order": [
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0",
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1",
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-2"
+        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
@@ -97,33 +88,56 @@
         "padding_bottom": 60
       }
     },
-    "38cdf60f-e431-43b5-aac3-7e6215447d67": {
-      "type": "collection-list",
+    "e9d08429-f642-4707-b12c-6deabdcd458b": {
+      "type": "multicolumn",
       "blocks": {
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0": {
-          "type": "featured_collection",
+        "template--21024170344740__e9d08429-f642-4707-b12c-6deabdcd458b-column-1": {
+          "type": "column",
           "settings": {
-            "collection": "hydrogen"
+            "image": "shopify:\/\/shop_images\/mountaineer-top.jpg",
+            "title": "Experience the Thrills of Snowboarding through Expert Tips",
+            "text": "<p>Discover the world of snowboarding through the eyes of our expert bloggers. Gain insights and tips from seasoned professionals in the sport.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1": {
-          "type": "featured_collection",
+        "template--21024170344740__e9d08429-f642-4707-b12c-6deabdcd458b-column-2": {
+          "type": "column",
           "settings": {
-            "collection": "automated-collection"
+            "image": "shopify:\/\/shop_images\/RVI47PFFOJOP3AMHREXSXFIOH4.jpg",
+            "title": "Experience the Adrenaline of Snowboarding and Win Fantastic Prizes!",
+            "text": "<p>Participate in our snowboarding competition and stand a chance to win amazing prizes. Showcase your talent and make your mark in the snowboarding world.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21024170344740__e9d08429-f642-4707-b12c-6deabdcd458b-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_89651632-web.jpg",
+            "title": "Unlock the Thrills of Your First Time Snowboarding!",
+            "text": "<p>Embark on an exhilarating adventure with our top-of-the-line snowboarding equipment. Get ready to carve your way through the powder.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0",
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1"
+        "template--21024170344740__e9d08429-f642-4707-b12c-6deabdcd458b-column-1",
+        "template--21024170344740__e9d08429-f642-4707-b12c-6deabdcd458b-column-2",
+        "template--21024170344740__e9d08429-f642-4707-b12c-6deabdcd458b-column-3"
       ],
       "settings": {
-        "title": "<strong>Collections<\/strong>",
+        "title": "Blogs",
         "heading_size": "h1",
+        "image_width": "full",
         "image_ratio": "portrait",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "View more",
+        "button_link": "",
         "color_scheme": "background-1",
-        "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -136,6 +150,6 @@
     "sort_quotes",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67"
+    "e9d08429-f642-4707-b12c-6deabdcd458b"
   ]
 }
