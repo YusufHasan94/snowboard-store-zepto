@@ -14,28 +14,49 @@
     "07c5541b-f8e9-4e48-9d3c-06973d977a3a": {
       "type": "collection-list",
       "blocks": {
+        "template--18521947767080__07c5541b-f8e9-4e48-9d3c-06973d977a3a-1681309838ff78aa4b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "automated-collection"
+          }
+        },
+        "4a2b3997-e6fc-4a7d-a947-08593f834e14": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "arctic-rush-series"
+          }
+        },
+        "1d0a9c8e-823d-4faf-ae63-bdc30d504b79": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glacial-shred-squad"
+          }
+        },
         "template--18521947767080__07c5541b-f8e9-4e48-9d3c-06973d977a3a-1681309838ff78aa4b-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "hydrogen"
           }
         },
-        "template--18521947767080__07c5541b-f8e9-4e48-9d3c-06973d977a3a-1681309838ff78aa4b-1": {
+        "15e1be40-6331-493c-bab7-75ad2e1ca248": {
           "type": "featured_collection",
           "settings": {
-            "collection": "automated-collection"
+            "collection": "frostbite-freestyle-collection"
           }
         }
       },
       "block_order": [
+        "template--18521947767080__07c5541b-f8e9-4e48-9d3c-06973d977a3a-1681309838ff78aa4b-1",
+        "4a2b3997-e6fc-4a7d-a947-08593f834e14",
+        "1d0a9c8e-823d-4faf-ae63-bdc30d504b79",
         "template--18521947767080__07c5541b-f8e9-4e48-9d3c-06973d977a3a-1681309838ff78aa4b-0",
-        "template--18521947767080__07c5541b-f8e9-4e48-9d3c-06973d977a3a-1681309838ff78aa4b-1"
+        "15e1be40-6331-493c-bab7-75ad2e1ca248"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
