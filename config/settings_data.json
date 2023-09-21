@@ -106,8 +106,9 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "brand_headline": "© 2023 \/ Shopify, Inc.",
-    "brand_description": "<p>©2023\/ Shopify, Inc.<\/p>",
+    "brand_headline": "Snowboard Store",
+    "brand_description": "<p>A snowboard store sells snowboarding gear, including boards, boots, and clothing, providing expertise and equipment for snowboarding enthusiasts.<\/p>",
+    "brand_image": "shopify:\/\/shop_images\/snowboard.png",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -139,7 +140,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {

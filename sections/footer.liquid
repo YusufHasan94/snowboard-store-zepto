@@ -16,7 +16,6 @@
   .footer__content-top{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
     justify-items: center;
   }
 
@@ -26,6 +25,11 @@
   }
   .field__input{
     background-color: transparent;
+  }
+  .footer-block--newsletter{
+    margin: 0;
+    align-items: flex-start;
+
   }
 
   @media screen and (min-width: 750px) {
@@ -78,6 +82,10 @@
               assign footer_grid_class = 'grid--3-col-tablet'
             endif
           -%}
+          <div>
+            <h1 style="font-size: 20px">Snowboard Store</h1>
+            <p>A snowboard store sells snowboarding gear, including boards, boots, and clothing, providing expertise and equipment for snowboarding enthusiasts.</p>
+          </div>
 
           <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
             {%- for block in section.blocks -%}
@@ -168,7 +176,6 @@
             {%- endfor -%}
           </div>
         {%- endif -%}
-
         <div class="footer-block--newsletter">
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
@@ -248,6 +255,7 @@
             {%- render 'social-icons' -%}
           {%- endif -%}
         </div>
+
       </div>
     {%- endunless -%}
   {%- endif -%}

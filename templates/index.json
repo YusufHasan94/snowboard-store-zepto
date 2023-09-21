@@ -19,6 +19,12 @@
         "show_text_below": true
       }
     },
+    "sort_quotes":{
+      "type": "sort-quotes",
+      "settings": {
+        "title": "Quotes About Snowboard"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -127,6 +133,7 @@
   },
   "order": [
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
+    "sort_quotes",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "38cdf60f-e431-43b5-aac3-7e6215447d67"

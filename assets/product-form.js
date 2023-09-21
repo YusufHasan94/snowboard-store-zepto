@@ -16,6 +16,7 @@ if (!customElements.get('product-form')) {
 
     onSubmitHandler(evt) {
       evt.preventDefault();
+      console.log("btn clicked");
       if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
       this.handleErrorMessage();
@@ -36,8 +37,9 @@ if (!customElements.get('product-form')) {
       }
     
       //Added to generate selling plan add to cart response
-      const sellingPlanId = window.getCurrentSellingPlanId();
-      formData.append("selling_plan", sellingPlanId);
+      // const sellingPlanId = window.getCurrentSellingPlanId();
+      // formData.append("selling_plan", sellingPlanId);
+      // console.log(formData);
       
       config.body = formData;
 
